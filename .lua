@@ -1,3 +1,4 @@
+--_G.Key = "adminstrator"
 local ClientId = game:GetService("RbxAnalyticsService"):GetClientId()
 local Hwid = {
     [1] = "A93D62DC-46A3-4B80-8A92-35696FC8928F",
@@ -26,7 +27,7 @@ if Hwid[KeyNumber] == ClientId then
         print("[Alzen]: [3/3] Successfully authenticated!")
         wait(0.1)
         print("[Alzen]: Authenticated in 2.0s")
-        loadstring(game:HttpGet("https://paste.ee/r/swHZi"))()
+        loadstring(game:HttpGet("https://paste.ee/r/P5HuX"))()
         else
         print("Key created and copied contact with owner")
         function Randomkey(v)
