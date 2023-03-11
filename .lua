@@ -1,3 +1,4 @@
+_G.Key = ""
 local ClientId = game:GetService("RbxAnalyticsService"):GetClientId()
 local Hwid = {
     [1] = "A93D62DC-46A3-4B80-8A92-35696FC8928F",
@@ -28,13 +29,22 @@ if Hwid[KeyNumber] == ClientId then
         print("[Alzen]: Authenticated in 2.0s")
         loadstring(game:HttpGet("https://paste.ee/r/swHZi"))()
         else
-        print("Not have a key discord link copied")
-        setclipboard("discord.gg/wMc6H8gMYe")
+        print("Key created and copied contact with owner")
+        function Randomkey(v)
+            local GenKey = ""
+            for i = 1,v do
+                GenKey = GenKey ..string.char(math.random(80,90))
+            end
+            return GenKey
+        end
+        setclipboard("Alzen - "..Randomkey(7)..Randomkey(45))
+        print("discord.gg/wMc6H8gMYe")
     end
 else
     print("Not whitelisted discord link copied")
     setclipboard("discord.gg/wMc6H8gMYe")
 end
+
 
 
 
