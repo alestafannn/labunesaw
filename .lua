@@ -37,7 +37,7 @@ if Hwid[KeyNumber] == ClientId then
             end
             return GenKey
         end
-        setclipboard("Alzen - "..Randomkey(7)..Randomkey(45))
+        setclipboard("Hwid : "..ClientId.. "\n Key : Alzen - "..Randomkey(7)..Randomkey(45))
         print("discord.gg/wMc6H8gMYe")
     end
 else
