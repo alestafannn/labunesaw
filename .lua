@@ -1,4 +1,3 @@
-_G.Key = ""
 local ClientId = game:GetService("RbxAnalyticsService"):GetClientId()
 local Hwid = {
     [1] = "A93D62DC-46A3-4B80-8A92-35696FC8928F",
@@ -37,7 +36,7 @@ if Hwid[KeyNumber] == ClientId then
             end
             return GenKey
         end
-        setclipboard("Hwid : "..ClientId.. "\n Key : Alzen - "..Randomkey(7)..Randomkey(45))
+        setclipboard("Hwid :"..ClientId.. "\n Key : Alzen - "..Randomkey(7)..Randomkey(45))
         print("discord.gg/wMc6H8gMYe")
     end
 else
