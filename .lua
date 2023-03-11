@@ -1,8 +1,8 @@
 --_G.Key = ""
 local ClientId = game:GetService("RbxAnalyticsService"):GetClientId()
 local Hwid = {
-    [1] = "A93D62DC-46A3-4B80-8A925696FC8928F",
-    ["A93D62DC-46A3-4B80-8A92-3569C8928F"] = 1, --ben
+    [1] = "A93D62DC-46A3-4B80-8A92-35696FC8928F",
+    ["A93D62DC-46A3-4B80-8A92-35696FC8928F"] = 1, --ben
     [2] = "141473E4-366D-4141-BCF3-97DFCA5FCA2C",
     ["141473E4-366D-4141-BCF3-97DFCA5FCA2C"] = 2, --batu
     [3] = "02A98969-3CE6-419A-9D31-777BB6907AAA",
